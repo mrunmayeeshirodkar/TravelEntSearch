@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlaceDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
+
+        <Spinner
+            android:id="@+id/reviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@android:style/ThemeOverlay.Material.Light"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:entries="@array/reviews"
+            />
+
+        <Spinner
+            android:id="@+id/order_reviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:theme="@android:style/ThemeOverlay.Material.Light"
+            android:layout_marginLeft="15dp"
+            android:entries="@array/order_reviews"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/no_reviews"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="No Reviews" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reviews_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:scrollbars="vertical"
+        android:paddingLeft="15dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Favparent_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="25dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/FavImageCompany"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp" />
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/FavPlaceName"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:text="abcd"
+                android:textColor="@color/darkGrey"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/FavPlaceAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView3"
+                android:textColor="@color/darkGrey"
+                android:textSize="6pt" />
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/FavImageHeart"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/red_filled_heart" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/FavPlaceId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:visibility="invisible"/>
+</android.support.constraint.ConstraintLayout>

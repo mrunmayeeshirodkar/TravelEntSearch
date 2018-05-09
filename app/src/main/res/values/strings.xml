@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Places Search</string>
+    <string name="tab_text_1"> SEARCH</string>
+    <string name="tab_text_2"> FAVORITES</string>
+    <string name="keyword_text">Keyword</string>
+    <string name="category_text">Category</string>
+    <string name="enter_keyword">Enter Keyword</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="category_names">
+        <item>Default</item>
+        <item>Airport</item>
+        <item>Amusement Park</item>
+        <item>Aquarium</item>
+        <item>Art Gallery</item>
+        <item>Bakery</item>
+        <item>Bar</item>
+        <item>Beauty Salon</item>
+        <item>Bowling Alley</item>
+        <item>Bus Station</item>
+        <item>Cafe</item>
+        <item>Campground</item>
+        <item>Car Rental</item>
+        <item>Casino</item>
+        <item>Lodging</item>
+        <item>Movie Theatre</item>
+        <item>Museum</item>
+        <item>Night Club</item>
+        <item>Park</item>
+        <item>Parking</item>
+        <item>Restaurant</item>
+        <item>Shopping Mall</item>
+        <item>Stadium</item>
+        <item>Subway Station</item>
+        <item>Taxi Stand</item>
+        <item>Train Station</item>
+        <item>Transit Station</item>
+        <item>Travel Agency</item>
+        <item>Zoo</item>
+    </string-array>
+    <string name="distance_text">Distance (in miles)</string>
+    <string name="enter_distance">Enter distance (default 10 miles)</string>
+    <string name="text_from">From</string>
+    <string name="curr_loc">Current location</string>
+    <string name="spec_loc">Other. Specify Location</string>
+    <string name="type_loc">Type in the Location</string>
+    <string name="Search_text">SEARCH</string>
+    <string name="clear_text">CLEAR</string>
+    <string name="UI_String">UI Text</string>
+    <string name="prevButton">Previous</string>
+    <string name="nextButton">Next</string>
+    <string name="searchResults">Search Results</string>
+    <string-array name="reviews">
+        <item>Google Reviews</item>
+        <item>Yelp Reviews</item>
+    </string-array>
+    <string-array name="order_reviews">
+        <item>Default Order</item>
+        <item>Highest Rating</item>
+        <item>Lowest Rating</item>
+        <item>Most Recent</item>
+        <item>Least Recent</item>
+    </string-array>
+    <string-array name="travelmode">
+        <item>Driving</item>
+        <item>Bicycling</item>
+        <item>Transit</item>
+        <item>Walking</item>
+    </string-array>
+</resources>
