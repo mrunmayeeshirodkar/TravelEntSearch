@@ -7,3 +7,4 @@ It also has photos tab where the app shows photos returned by google places API.
 This also has maps tab which shows the selected place and options for navigation using Google Maps API.
 It also has reviews tab which shows Google and Yelp reviews upon toggle and has option to sort the reviews. This is done using Google and Yelp APIs.
 
+<img src="/app/pizza.png"/>
