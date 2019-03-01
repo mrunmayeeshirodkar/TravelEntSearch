@@ -1,4 +1,4 @@
-# TravelEntSearch
+# Travel & Entertainment Search Android App
 This is an android project for searching places, restaurants. Basically any establishments.
 
 It shows the list of places based on matching keyword and distance. 
